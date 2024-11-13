@@ -1,8 +1,8 @@
 (function () {
     function startMod() {
         window.nlm014isDone = false;
-        var wload = 0,
-            wfirst = 1,
+        var wload = 15,
+            wfirst = 2,
             wfirstp = 65,
             wsec = 1,
             wsecp = 85,
