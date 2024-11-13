@@ -11,16 +11,16 @@
     })
 
     document.addEventListener('DOMContentLoaded', function() {
-        setTimeout(function() {
-            const preloaderShow = document.querySelector('.uc-n-show')
-            if(preloaderShow.classList.contains('n-show')) {
-                preloaderShow.classList.remove('n-show')
-                preloaderShow.classList.add('n-hide')
-                setTimeout(function() {
-                    preloaderShow.style.display = 'none'
-                }, 500)
-            }
-        }, 5500)
+        // setTimeout(function() {
+        //     const preloaderShow = document.querySelector('.uc-n-show')
+        //     if(preloaderShow.classList.contains('n-show')) {
+        //         preloaderShow.classList.remove('n-show')
+        //         preloaderShow.classList.add('n-hide')
+        //         setTimeout(function() {
+        //             preloaderShow.style.display = 'none'
+        //         }, 500)
+        //     }
+        // }, 5500)
         // setTimeout(function() {
         //     document.querySelectorAll('.t-rec').forEach(trec => {
         //         trec.classList.add('visibled')
