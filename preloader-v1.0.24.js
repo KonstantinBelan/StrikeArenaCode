@@ -1,10 +1,10 @@
 (function () {
     function startMod() {
         window.nlm014isDone = false;
-        var wload = 15,
+        var wload = 7,
             wfirst = 2,
             wfirstp = 65,
-            wsec = 1,
+            wsec = 2,
             wsecp = 85,
             recid = "#rec811306260",
             i = 1,
