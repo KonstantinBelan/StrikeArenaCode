@@ -54,6 +54,7 @@
                                       item.style.display = "none";
                                   }, 500);
                               }),
+                             console.log('загружено'),
                               window.dispatchEvent(new Event("resize")),
 
                                // setTimeout(function() {
