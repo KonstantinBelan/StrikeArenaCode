@@ -2,7 +2,7 @@
     function startMod() {
         window.nlm014isDone = false;
         var wload = 1,
-            wfirst = 3,
+            wfirst = 1,
             wfirstp = 65,
             wsec = 3,
             wsecp = 85,
