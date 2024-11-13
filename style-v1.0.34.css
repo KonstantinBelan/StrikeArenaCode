@@ -3,9 +3,9 @@
 .preloadText014 {
     opacity: 1;
 }
-/* body .t-rec:not(.uc-hero, .visibled, .uc-n-show, .uc-tab1, .uc-tab1_on, .uc-tab2, .uc-tab2_on, .uc-tab3, .uc-tab3_on, .uc-maps_1, .uc-maps_2, .uc-maps_3, .uc-maps_4, .uc-maps_5, .uc-maps_6, .uc-maps_7) {
+body .t-rec:not(.uc-hero, .uc-nolazy, .visibled, .uc-n-show, .uc-tab1, .uc-tab1_on, .uc-tab2, .uc-tab2_on, .uc-tab3, .uc-tab3_on, .uc-maps_1, .uc-maps_2, .uc-maps_3, .uc-maps_4, .uc-maps_5, .uc-maps_6, .uc-maps_7) {
     display: none !important;
-} */
+}
 .t-input-group_cb {
     margin-left: 16px;
 }
