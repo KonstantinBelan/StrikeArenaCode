@@ -51,6 +51,13 @@
                                   }, 500);
                               }),
                               window.dispatchEvent(new Event("resize")),
+                               
+                               document.querySelectorAll('.t-rec').forEach(trec => {
+                                    trec.classList.add('visibled')
+                                }),
+                                var evt = document.createEvent('UIEvents');
+                                evt.initUIEvent('resize', true, false, window, 0);
+                                window.dispatchEvent(evt);
                               setTimeout(function () {
                                   window.nlm014isDone = true;
                               }, 500));
@@ -105,6 +112,15 @@
                     clearInterval(intForZeroBlock);
                     console.log("zeroBlock", zeroBlock);
                     zeroBlock.remove();
+
+                    document.querySelectorAll('.t-rec').forEach(trec => {
+                        trec.classList.add('visibled')
+                    })
+                    var evt = document.createEvent('UIEvents');
+                    evt.initUIEvent('resize', true, false, window, 0);
+                    window.dispatchEvent(evt);
+                    window.dispatchEvent(new Event('resize'));
+                    
                 }
             }, 1);
             setTimeout(() => {
