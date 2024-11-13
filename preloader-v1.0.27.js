@@ -52,15 +52,19 @@
                               }),
                               window.dispatchEvent(new Event("resize")),
 
-                               setTimeout(function() {
-                                    document.querySelectorAll('.t-rec').forEach(trec => {
+                               // setTimeout(function() {
+                               //      document.querySelectorAll('.t-rec').forEach(trec => {
+                               //          trec.classList.add('visibled')
+                               //      })
+                               //      var evt = document.createEvent('UIEvents');
+                               //      evt.initUIEvent('resize', true, false, window, 0);
+                               //      window.dispatchEvent(evt);
+                               //      window.dispatchEvent(new Event('resize'));
+                               //  }, 200),
+
+                               document.querySelectorAll('.t-rec').forEach(trec => {
                                         trec.classList.add('visibled')
-                                    })
-                                    var evt = document.createEvent('UIEvents');
-                                    evt.initUIEvent('resize', true, false, window, 0);
-                                    window.dispatchEvent(evt);
-                                    window.dispatchEvent(new Event('resize'));
-                                }, 200),
+                                    }),
                                
                               setTimeout(function () {
                                   window.nlm014isDone = true;
