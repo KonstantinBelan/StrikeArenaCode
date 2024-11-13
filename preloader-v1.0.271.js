@@ -2,9 +2,9 @@
     function startMod() {
         window.nlm014isDone = false;
         var wload = 7,
-            wfirst = 2,
+            wfirst = 3,
             wfirstp = 65,
-            wsec = 2,
+            wsec = 1,
             wsecp = 85,
             recid = "#rec811306260",
             i = 1,
@@ -39,6 +39,10 @@
                         document.querySelectorAll("." + wloadc + " .tn-atom").forEach(function (item) {
                             item.innerHTML = wload + "%";
                         }),
+                        wload < 74
+                            document.querySelectorAll('.t-rec').forEach(trec => {
+                                trec.classList.add('visibled')
+                             }),
                         wload < 100
                             ? myLoop3()
                             : (document.querySelectorAll("." + wloadc + " .tn-atom").forEach(function (item) {
@@ -62,9 +66,9 @@
                                //      window.dispatchEvent(new Event('resize'));
                                //  }, 200),
 
-                               document.querySelectorAll('.t-rec').forEach(trec => {
-                                        trec.classList.add('visibled')
-                                    }),
+                               // document.querySelectorAll('.t-rec').forEach(trec => {
+                               //          trec.classList.add('visibled')
+                               //      }),
                                
                               setTimeout(function () {
                                   window.nlm014isDone = true;
