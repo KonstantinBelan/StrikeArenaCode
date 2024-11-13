@@ -106,7 +106,6 @@
                     clearInterval(intForZeroBlock);
                     console.log("zeroBlock", zeroBlock);
                     zeroBlock.remove();
-                    document.querySelector("#NLM014scrolllock").remove();
                 }
             }, 1);
             setTimeout(() => {
