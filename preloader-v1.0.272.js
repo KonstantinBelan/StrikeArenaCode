@@ -39,7 +39,7 @@
                         document.querySelectorAll("." + wloadc + " .tn-atom").forEach(function (item) {
                             item.innerHTML = wload + "%";
                         }),
-                        wload < 74
+                        wload < 55
                             document.querySelectorAll('.t-rec').forEach(trec => {
                                 trec.classList.add('visibled')
                              }),
