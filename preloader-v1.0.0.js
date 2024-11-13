@@ -50,7 +50,6 @@
                                       item.style.display = "none";
                                   }, 500);
                               }),
-                              document.querySelector("#NLM014scrolllock").remove(),
                               window.dispatchEvent(new Event("resize")),
                               setTimeout(function () {
                                   window.nlm014isDone = true;
