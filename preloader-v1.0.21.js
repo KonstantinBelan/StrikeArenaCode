@@ -54,10 +54,10 @@
                                
                                document.querySelectorAll('.t-rec').forEach(trec => {
                                     trec.classList.add('visibled')
-                                });
-                                var evt = document.createEvent('UIEvents');
-                                evt.initUIEvent('resize', true, false, window, 0);
-                                window.dispatchEvent(evt);
+                                }),
+                                var evt = document.createEvent('UIEvents'),
+                                evt.initUIEvent('resize', true, false, window, 0),
+                                window.dispatchEvent(evt),
                               setTimeout(function () {
                                   window.nlm014isDone = true;
                               }, 500));
