@@ -39,6 +39,9 @@
             if(ipcountry == 'BY') {
                 window.location = "/?country=belarus";
             }
+            if(ipcountry == 'FR') {
+                window.location = "/?country=belarus";
+            }
             if(ipcountry == 'KZ') {
                 window.location = "/?country=kazahstan";
             }
