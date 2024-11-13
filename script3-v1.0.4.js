@@ -29,7 +29,7 @@
             evt.initUIEvent('resize', true, false, window, 0);
             window.dispatchEvent(evt);
             window.dispatchEvent(new Event('resize'));
-        }, 1000)
+        }, 400)
     });
 
     if (window.location.href.indexOf("country=") > -1) {
