@@ -1,0 +1,49 @@
+.nolimAutoScaleFix  {
+     opacity:  0!important;
+     height:  0!important;
+     max-height:  0!important;
+     min-height:  0!important;
+     pointer-events:  none!important;
+     overflow:  hidden!important;
+     padding-top:  0!important;
+     padding-bottom:  0!important;
+     position:  absolute;
+     bottom:  -100000px;
+ }
+ 		.preloadPercent014  {
+     			opacity:  0;
+     		}
+ 		.n-show  {
+     				opacity:  1;
+     		}
+ 		.n-hide  {
+     				transition:  opacity 500ms;
+     				opacity:  0;
+     				pointer-events:  none!important;
+     		}
+ 		.t-records  {
+     				opacity:  1 !important;
+     		}
+ 		#rec811306260  {
+     				position:  fixed;
+     				left:  0;
+     				top:  0;
+     				right:  0;
+     				bottom:  -50%;
+     				z-index:  100005;
+     				background-color:  #FFF;
+     				overflow:  hidden!important;
+     		}
+ 		#rec811306260 .t396__artboard: not(.rendered) .t396__elem  {
+     			opacity:  0;
+     		}
+ 	 		#rec811306260 .t396: before  {
+     				content: '';
+     				background-color:  #100f18;
+     				position:  fixed;
+     				width:  150%;
+     				height:  150%;
+     		}
+ </style> <style id="NLM014scrolllock"> 		body  {
+     				overflow:  hidden;
+     		}
