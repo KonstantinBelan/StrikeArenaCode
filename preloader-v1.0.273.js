@@ -4,7 +4,7 @@
         var wload = 1,
             wfirst = 3,
             wfirstp = 65,
-            wsec = 1,
+            wsec = 3,
             wsecp = 85,
             recid = "#rec811306260",
             i = 1,
