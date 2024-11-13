@@ -37,7 +37,7 @@
  		#rec811306260 .t396__artboard: not(.rendered) .t396__elem  {
      			opacity:  0;
      		}
- 	 		#rec811306260 .t396: before  {
+ 	 		#rec811306260 .t396:before  {
      				content: '';
      				background-color:  #100f18;
      				position:  fixed;
